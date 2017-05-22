@@ -44,8 +44,6 @@ test31_y = test31.iloc[:,3]
 
 
 
-
-
 trX, trY, teX, teY = np.array(train20_x), np.reshape(train20_y,(-1,1)), np.array(test20_x), np.reshape(test20_y,(-1,1))
 
 data_length = 2168 #2168,2168,2168,2170,2169
